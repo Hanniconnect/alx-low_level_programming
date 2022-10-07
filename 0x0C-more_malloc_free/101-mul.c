@@ -56,7 +56,7 @@ char *create_xarray(int size)
  * leading zeroes until it hits a non-zero number.
  * @str: The string of numbers to be iterate through.
  *
- * @str: The string of numbers to be iterate through.
+ * @str: The string of numbers to be iterate zereos.
  */
 char *iterate_zeroes(char *str)
 {
