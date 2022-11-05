@@ -43,7 +43,7 @@ void check_elf(unsigned char *e_ident)
 /**
  * print_magic - Prints the magic numbers of an ELF header.
   * @e_ident: A pointer to an array containing the ELF magic numbers.
-
+  *
   * Description: Magic numbers are separated by spaces.
   */
 void print_magic(unsigned char *e_ident)
@@ -246,7 +246,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 /**
  * close_elf - Closes an ELF file.
  * @elf: The file descriptor of the ELF file.
-
+ *
  * Description: If the file cannot be closed - exit code 98.
  */
 void close_elf(int elf)
